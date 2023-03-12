@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;    
+    text-align: center; 
+    margin: 20px 0px 20px 0px;   
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.219);
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+div input {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+select {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer {    
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+footer a {
+    color: #000000;
+}
