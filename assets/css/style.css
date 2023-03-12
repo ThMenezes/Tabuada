@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background-color: #FFFFFF;
+    --button-color: #72dffa;
+    --button2-color: #d9e4fd;
+}
+
 body {
     background-image: url(../img/numeros.jpg);
     background-size: cover;
+    height: 100vh
 }
 
 h1 {
@@ -16,7 +23,7 @@ h1 {
 }
 
 section {
-    background-color: white;
+    background-color: var(--background-color);
     border-radius: 10px;
     padding: 30px;
     width: 600px;
@@ -44,7 +51,7 @@ input {
 }
 
 .botao {
-    background-color: #72dffa;      
+    background-color: var(--button-color);      
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -55,7 +62,7 @@ input {
 }
 
 .botao:hover {
-    background-color: #d9e4fd;    
+    background-color: var(--button2-color);    
 }
 
 select {
@@ -68,9 +75,16 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: 1.2rem;
-    padding: 20px;
+    padding: 40px;
 }
 
 footer a {
     color: #000000;
+}
+
+@media (max-width: 600px) {
+    section {
+        width: auto;
+        margin: auto 10px;
+    }
 }
